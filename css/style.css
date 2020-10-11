@@ -1,0 +1,55 @@
+/*HOME PAGE*/
+
+.carousel-item {
+    height: 70vh;
+}
+
+.carousel-image-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../img/image1.jpg);
+}
+
+.carousel-image-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../img/image2.jpg);
+}
+
+.carousel-image-3 {
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../img/image3.jpg);
+}
+
+.carousel-image-1,
+.carousel-image-2,
+.carousel-image-3,
+#video-play,
+#home-heading {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#home-heading {
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../img/lights.jpg);
+}
+
+#video-play {
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../img/media.jpg);
+}
+
+
+/*ABOUT PAGE*/
+
+#header {
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../img/image1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.about .about-img {
+    margin-top: -8rem;
+}
+
+.services #accordion .card {
+    background-color: #333;
+}
